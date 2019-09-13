@@ -1,0 +1,103 @@
+/***BASE STYLES***/
+body{
+    color: #8facb2;
+    font-family: 'Roboto Slab';
+    
+
+} 
+
+/***** GRID *****/
+.full-width {
+    padding: 50px;
+    width: 1200px;
+    
+
+}
+
+.half-width {
+    float: left;
+    padding-right: 50px;
+    width: 550px;  
+}
+
+/***Image Styles***/
+#jubilee-thumbnail, #holstee-thumbnail, #rogue-thumbnail{
+    border: solid;
+    border-color: black;
+    margin-top:50px;
+}
+
+/***Text Box Styles***/
+#jubilee-text{
+    padding-top:50px;
+}
+
+#holstee-text{
+    padding-top:150px;
+    margin-top: 100px;
+}
+
+#rogue-text{
+    padding-top:220px;
+    margin-top: 100px;
+}
+
+
+
+/***Section Styles***/
+header {
+    background: url(../img/hero-image.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+header h2{
+    padding-left: 50px;
+    padding-top:200px;
+}
+
+nav {
+    float: right; 
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #8facb2;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+#Work{
+    background-color: #EFEFEF;
+    border-top: solid;
+    border-top-color: black;
+    color: #6b545c;
+    height: 1400px;
+}
+
+#Work h2{
+    padding-left: 500px;
+}
+
+#About{
+    background-color: #6b545c;
+    clear: both;
+    height: 550px;
+}
+
+#linkedin,#github{
+    height: 60px;
+}
+
+#about-me-picture{
+    border: solid;
+    border-color: black;
+    height: 350px;
+}
+

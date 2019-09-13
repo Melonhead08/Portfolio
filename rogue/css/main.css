@@ -1,0 +1,142 @@
+/******BASE STYLES******/
+@font-face{
+    font-family: 'wisdom';
+    src: url('../fonts/wisdom.otf') format('opentype'); 
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+#menu, #reviews, #location{
+    font-size: 16px;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 50px;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+
+
+/***** HEADER*****/
+
+header h1{ 
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform:uppercase;
+    padding: 45px 25px;
+    padding-left: 15px
+
+}
+
+header h1 span{
+    color:#77a466;
+}
+nav {
+    float: right; 
+    padding: 55px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466; 
+    padding-left: 15px;
+}
+
+/***** IMAGE *****/
+
+#border-top{ 
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left; 
+
+}
+#hero-image{
+    padding-left:20px;
+    float: left;
+
+}
+#border-bottom{
+    padding-top: 0px;
+    padding-left: 20px;
+    float: left;
+}
+
+/***** ABOUT *****/
+#about{
+    clear:both;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+#about h2{
+    font-size: 18px;
+    height: 23px;
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+#about p{
+    font-size: 16px;
+    height: 25px;
+}
+
+
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+}
+.half-width {
+    width: 600px;
+    float:left;
+}
+.third-width {
+    width:400px;
+    float:left;
+}
+
+/****Main*****/
+#menulist{
+    color:#77a466;
+    font-weight: none;
+    height:25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+h4{
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 12px;
+}
+
+#reviews{
+    border-left: 3px solid #eee;
+    border-right: 3px solid #eee;
+}
+
+/*****Footer*****/
+footer{
+    clear:both;
+    margin: 0 auto;
+    font-size:16px;
+    height:50px;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+footer span{
+    color:#77a466;
+    font-family: wisdom; cursive;
+    text-transform: lowercase;
+}

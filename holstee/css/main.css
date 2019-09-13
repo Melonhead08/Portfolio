@@ -1,0 +1,73 @@
+body {border: solid 5px #cccccc;
+	width:540px;
+	height: 1400px
+	
+}
+aside {float: left;
+}
+
+/*box colors*/
+#TopLeft { background: tomato
+}
+
+#TopRight {background: pink;
+}
+
+#TopLowerRight {background: lightseagreen;
+
+}
+#MiddleLeft {background: slateblue;
+
+}
+#MiddleRight {background: orange;
+}
+
+#BottomUpperLeft {background: purple;
+
+}
+
+#BottomRight { background: tomato
+}
+
+#BottomLeft {background: yellow;
+}
+
+/*features for boxes that are the same*/
+.smallboxdata {
+	width: 230px;
+	height: 200px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	padding: 40px 20px 40px 20px;
+	margin: 0px
+}
+
+.bigboxdata {
+	width: 230px;
+	height: 500px;
+	font-family: 'Oswald', serif;
+	text-align: center;
+	font-size: 24px;
+	padding: 30px 20px 30px 20px;
+	margin: 0px
+}
+
+/*paragraph padding to move text around*/
+.padding {padding: 10px;
+}
+
+/*span to change features when needed*/
+.spanlarger {
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	font-size: 24px;
+}
+
+.spansmaller {
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: underline;
+}
